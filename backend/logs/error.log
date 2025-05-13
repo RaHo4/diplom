@@ -1,0 +1,9 @@
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading 'startsWith')","service":"fire-alarm-api","timestamp":"2025-05-05 15:41:02"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading 'startsWith')","service":"fire-alarm-api","timestamp":"2025-05-05 15:41:32"}
+{"level":"error","message":"Unhandled Rejection: Cannot set headers after they are sent to the client","service":"fire-alarm-api","timestamp":"2025-05-05 15:42:11"}
+{"level":"error","message":"Unhandled Rejection: Cannot set headers after they are sent to the client","service":"fire-alarm-api","timestamp":"2025-05-05 15:42:45"}
+{"level":"error","message":"Unhandled Rejection: Cannot set headers after they are sent to the client","service":"fire-alarm-api","timestamp":"2025-05-05 15:43:15"}
+{"level":"error","message":"Unhandled Rejection: Cannot set headers after they are sent to the client","service":"fire-alarm-api","timestamp":"2025-05-05 15:43:45"}
+{"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-05 20:21:37"}
+{"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-07 12:39:25"}
+{"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-13 13:24:10"}
