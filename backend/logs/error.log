@@ -7,3 +7,14 @@
 {"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-05 20:21:37"}
 {"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-07 12:39:25"}
 {"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-13 13:24:10"}
+{"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-15 11:37:10"}
+{"level":"error","message":"Unhandled Rejection: Cannot destructure property 'buildingId' of 'req.body._parts' as it is undefined.","service":"fire-alarm-api","timestamp":"2025-05-20 01:45:11"}
+{"level":"error","message":"Unhandled Rejection: Floor validation failed: planImagePath: Path `planImagePath` is required.","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:12"}
+{"level":"error","message":"Unhandled Rejection: Cast to Number failed for value \"682bb9b858d33a1dfd475473\" (type string) at path \"floorNumber\" for model \"Floor\"","service":"fire-alarm-api","timestamp":"2025-05-20 02:08:43"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '1')","service":"fire-alarm-api","timestamp":"2025-05-20 02:21:07"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '1')","service":"fire-alarm-api","timestamp":"2025-05-20 02:22:57"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:27"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:58"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:24:16"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:25:37"}
+{"level":"error","message":"Unhandled Rejection: image is not defined","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:27"}

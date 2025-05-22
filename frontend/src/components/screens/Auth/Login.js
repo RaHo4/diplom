@@ -12,14 +12,16 @@ import { AuthContext } from "../../../context/AuthContext";
 // import Input from "../../common/Input";
 // import Button from "../../common/Button";
 import Loader from "../../common/Loader";
+import api from "../../../services/api";
 
 const Login = ({ navigation }) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const { login, isLoading, error } = useContext(AuthContext);
+  const { login, isLoading, error, token } = useContext(AuthContext);
 
   const handleLogin = async () => {
-    await login(email, password);
+    const isLoggedIn = await login(email, password);
+    if (isLoggedIn) navigation.navigate("Main");
   };
 
   return (
@@ -48,7 +50,7 @@ const Login = ({ navigation }) => {
         secureTextEntry
       />
 
-      <Button title="Войти" onPress={handleLogin} disabled={isLoading}>
+      <Button title="Войти" onPress={async () => await handleLogin()} disabled={isLoading}>
         Войти
       </Button>
 

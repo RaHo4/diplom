@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const buildingSchema = mongoose.Schema(
   {
@@ -18,18 +18,20 @@ const buildingSchema = mongoose.Schema(
     },
     status: {
       type: String,
-      enum: ['normal', 'fire', 'maintenance'],
-      default: 'normal',
+      enum: ["normal", "fire", "maintenance"],
+      default: "normal",
     },
     createdBy: {
       type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
+      ref: "User",
       required: true,
     },
-    dutyOfficers: [{
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'User',
-    }],
+    dutyOfficers: [
+      {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "User",
+      },
+    ],
   },
   {
     timestamps: true,
@@ -37,8 +39,8 @@ const buildingSchema = mongoose.Schema(
 );
 
 // Индекс для поиска по адресу
-buildingSchema.index({ address: 'text', name: 'text' });
+buildingSchema.index({ address: "text", name: "text" });
 
-const Building = mongoose.model('Building', buildingSchema);
+const Building = mongoose.model("Building", buildingSchema);
 
 module.exports = Building;

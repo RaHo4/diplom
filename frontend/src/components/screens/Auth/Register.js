@@ -41,7 +41,10 @@ const Register = ({ navigation }) => {
   };
 
   return (
-    <ScrollView style={styles.container}>
+    <ScrollView
+      contentContainerStyle={styles.contentContainer}
+      style={{flex: 1}}
+    >
       <Text style={styles.title}>Регистрация</Text>
       <Text style={styles.subtitle}>
         Ваша заявка будет рассмотрена администратором
@@ -132,8 +135,16 @@ const Register = ({ navigation }) => {
 };
 
 const styles = StyleSheet.create({
+  scrollView: {
+    backgroundColor: "#f5f5f5",
+  },
+  contentContainer: {
+    padding: 20,
+    paddingBottom: 40, // чтобы было пространство внизу при скролле
+    flexGrow: 1,
+  },
   container: {
-    flex: 1,
+    flexGrow: 1,
     padding: 20,
     backgroundColor: "#f5f5f5",
   },

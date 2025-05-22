@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import {
   View,
   Text,
@@ -14,6 +14,7 @@ import {
 import Icon from "react-native-vector-icons/MaterialIcons";
 import api from "../../../services/api";
 import { ActivityIndicator, Flex } from "@react-native-material/core";
+import { AuthContext } from "../../../context/AuthContext";
 // import Loader from '../../common/Loader';
 
 const FireAlerts = ({ navigation }) => {
@@ -25,26 +26,46 @@ const FireAlerts = ({ navigation }) => {
   const [selectedAlert, setSelectedAlert] = useState(null);
   const [assignModalVisible, setAssignModalVisible] = useState(false);
 
+  const { user } = useContext(AuthContext); // Получаем данные пользователя и logout
+  const [intervalId, setIntervalId] = useState(null);
+
   useEffect(() => {
+    if (!user) {
+      console.log("Пользователь не авторизован — обновления остановлены");
+      return;
+    }
+
     fetchData();
 
-    // Poll for alerts every 15 seconds
-    const interval = setInterval(() => {
+    const id = setInterval(() => {
+      if (!user) {
+        clearInterval(id);
+        return;
+      }
       fetchAlerts();
     }, 15000);
 
-    return () => clearInterval(interval);
-  }, []);
+    setIntervalId(id);
+
+    return () => {
+      if (id) clearInterval(id);
+    };
+  }, [user]);
+
+  // Дополнительная проверка: если пользователь вышел — принудительно остановить все запросы
+  useEffect(() => {
+    if (!user && intervalId) {
+      clearInterval(intervalId);
+      setIntervalId(null);
+    }
+  }, [user, intervalId]);
 
   const fetchData = async () => {
     try {
       setIsLoading(true);
       setError(null);
 
-      await Promise.all([
-        fetchAlerts(),
-        // fetchTeams()
-      ]);
+      await Promise.all([fetchAlerts(), fetchTeams()]);
     } catch (error) {
       setError("Ошибка при загрузке данных");
       console.error("Data fetch error", error.response?.data || error);
@@ -55,8 +76,8 @@ const FireAlerts = ({ navigation }) => {
 
   const fetchAlerts = async () => {
     try {
-      const response = await api.get("/alarm-history");
-      setActiveAlerts(response);
+      const response = await api.get("/alarms/active");
+      setActiveAlerts(response.alarms);
     } catch (error) {
       console.error("Alerts fetch error", error);
       throw error;
@@ -65,8 +86,8 @@ const FireAlerts = ({ navigation }) => {
 
   const fetchTeams = async () => {
     try {
-      const response = await api.get("/fire-teams");
-      setTeams(response.data);
+      const response = await api.get("/brigades/available");
+      setTeams(response.brigades);
     } catch (error) {
       console.error("Teams fetch error", error);
       throw error;
@@ -102,6 +123,7 @@ const FireAlerts = ({ navigation }) => {
 
       // Refresh data
       await fetchAlerts();
+      await fetchTeams();
 
       Alert.alert("Успешно", "Пожарная бригада назначена на вызов");
       setAssignModalVisible(false);
@@ -117,7 +139,6 @@ const FireAlerts = ({ navigation }) => {
     return teams.filter((team) => team.status === "available");
   };
 
-
   if (isLoading && !isRefreshing) {
     return (
       <View style={styles.container}>
@@ -128,7 +149,7 @@ const FireAlerts = ({ navigation }) => {
           </TouchableOpacity>
         </View>
         <Flex fill direction="column" justify="center">
-          <ActivityIndicator size={"large"}></ActivityIndicator>
+          <ActivityIndicator></ActivityIndicator>
         </Flex>
       </View>
     );
@@ -154,7 +175,7 @@ const FireAlerts = ({ navigation }) => {
         </Flex>
       ) : null}
 
-      {!error && activeAlerts?.count === 0 ? (
+      {!error && activeAlerts.length === 0 ? (
         <Flex fill direction="column" justify="center">
           <View style={styles.emptyContainer}>
             <Icon name="water-drop" size={64} color="#4caf50" />
@@ -312,7 +333,7 @@ const FireAlerts = ({ navigation }) => {
         </View>
       </Modal>
 
-      {isLoading ? <ActivityIndicator size={"large"} /> : null}
+      {isLoading ? <ActivityIndicator /> : null}
     </View>
   );
 };
@@ -323,7 +344,7 @@ const styles = StyleSheet.create({
     backgroundColor: "#f5f5f5",
   },
   header: {
-    // paddingTop: StatusBar.currentHeight, 
+    // paddingTop: StatusBar.currentHeight,
     padding: 20,
     paddingTop: 10,
     backgroundColor: "white",
@@ -457,7 +478,7 @@ const styles = StyleSheet.create({
   },
   actionButtonText: {
     color: "white",
-    fontWeight: "500",
+    fontWeight: 500,
     fontSize: 14,
     marginLeft: 5,
   },

@@ -97,10 +97,9 @@ const updateUser = async (req, res) => {
 // @access  Private/Admin
 const deleteUser = async (req, res) => {
   try {
-    const user = await User.findById(req.params.id);
+    const user = await User.findByIdAndDelete(req.params.id);
     
     if (user) {
-      await user.remove();
       res.json({ 
         success: true, 
         message: 'Пользователь удален' 

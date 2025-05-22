@@ -17,7 +17,7 @@ import EditBuildingPlan from "../components/screens/Building/EditBuildingPlan";
 // Admin screens
 import UsersList from "../components/screens/Users/UsersList";
 import EditUser from "../components/screens/Users/EditUser";
-import AddressesList from "../components/screens/Addresses/AddressesList";
+// import AddressesList from "../components/screens/Addresses/AddressesList";
 import EditAddress from "../components/screens/Addresses/EditAddress";
 import PendingChanges from "../components/screens/Admin/PendingChanges";
 
@@ -30,11 +30,23 @@ import TeamAssignment from "../components/screens/Dispatcher/TeamAssignment";
 
 // Firefighter screens
 import CurrentMission from "../components/screens/Firefighter/CurrentMission";
-import { SafeAreaView } from "react-native";
+import RoleBasedNavigator from "./RoleNavigator";
+import FloorSelector from "../components/screens/Building/FloorSelector";
+import AddressList from "../components/screens/Addresses/AddressList";
 
 const AuthStack = createStackNavigator();
 const AppStack = createStackNavigator();
 const Tab = createBottomTabNavigator();
+const BuildingStack = createStackNavigator();
+
+const BuildingStackScreen = () => {
+  return (
+    <BuildingStack.Navigator screenOptions={{ headerShown: false }}>
+      <BuildingStack.Screen name="AddressList" component={AddressList} />
+      <BuildingStack.Screen name="FloorSelector" component={FloorSelector} />
+    </BuildingStack.Navigator>
+  );
+};
 
 const AuthNavigator = () => {
   return (
@@ -72,7 +84,7 @@ const AdminTabs = () => {
     >
       <Tab.Screen
         name="Buildings"
-        component={AddressesList}
+        component={BuildingStackScreen}
         options={{ title: "Здания" }}
       />
       <Tab.Screen
@@ -119,7 +131,7 @@ const DutyTabs = () => {
     >
       <Tab.Screen
         name="Buildings"
-        component={AddressesList}
+        component={AddressList}
         options={{ title: "Здания" }}
       />
       <Tab.Screen
@@ -139,49 +151,49 @@ const DutyTabs = () => {
 // Dispatcher Tab Navigator
 const DispatcherTabs = () => {
   return (
-      <Tab.Navigator
-        screenOptions={({ route }) => ({
-          tabBarIcon: ({ focused, color, size }) => {
-            let iconName;
+    <Tab.Navigator
+      screenOptions={({ route }) => ({
+        tabBarIcon: ({ focused, color, size }) => {
+          let iconName;
 
-            if (route.name === "Alerts") {
-              iconName = "warning";
-            } else if (route.name === "Teams") {
-              iconName = "people";
-            } else if (route.name === "Buildings") {
-              iconName = "apartment";
-            } else if (route.name === "Profile") {
-              iconName = "person";
-            }
+          if (route.name === "Alerts") {
+            iconName = "warning";
+          } else if (route.name === "Teams") {
+            iconName = "people";
+          } else if (route.name === "Buildings") {
+            iconName = "apartment";
+          } else if (route.name === "Profile") {
+            iconName = "person";
+          }
 
-            return <Icon name={iconName} size={size} color={color} />;
-          },
-          tabBarActiveTintColor: "#d32f2f",
-          tabBarInactiveTintColor: "gray",
-          headerShown: false,
-        })}
-      >
-        <Tab.Screen
-          name="Alerts"
-          component={FireAlerts}
-          options={{ title: "Тревоги" }}
-        />
-        <Tab.Screen
-          name="Teams"
-          component={TeamAssignment}
-          options={{ title: "Бригады" }}
-        />
-        <Tab.Screen
-          name="Buildings"
-          component={AddressesList}
-          options={{ title: "Здания" }}
-        />
-        <Tab.Screen
-          name="Profile"
-          component={Profile}
-          options={{ title: "Профиль" }}
-        />
-      </Tab.Navigator>
+          return <Icon name={iconName} size={size} color={color} />;
+        },
+        tabBarActiveTintColor: "#d32f2f",
+        tabBarInactiveTintColor: "gray",
+        headerShown: false,
+      })}
+    >
+      <Tab.Screen
+        name="Alerts"
+        component={FireAlerts}
+        options={{ title: "Тревоги" }}
+      />
+      <Tab.Screen
+        name="Teams"
+        component={TeamAssignment}
+        options={{ title: "Бригады" }}
+      />
+      <Tab.Screen
+        name="Buildings"
+        component={BuildingStackScreen}
+        options={{ title: "Здания" }}
+      />
+      <Tab.Screen
+        name="Profile"
+        component={Profile}
+        options={{ title: "Профиль" }}
+      />
+    </Tab.Navigator>
   );
 };
 
@@ -221,44 +233,21 @@ const FirefighterTabs = () => {
 };
 
 const AppNavigator = () => {
-  const { user, isAuthenticated } = useContext(AuthContext);
-
-  // Determine which tab navigator to show based on user role
-  const getTabNavigator = () => {
-    if (!user) return AuthNavigator;
-
-    switch (user.role) {
-      case "admin":
-        return AdminTabs;
-      case "duty":
-        return DutyTabs;
-      case "dispatcher":
-        return DispatcherTabs;
-      case "firefighter":
-        return FirefighterTabs;
-      default:
-        return AuthNavigator;
-    }
-  };
-
   return (
     <NavigationContainer>
-      {isAuthenticated ? (
-        <AppStack.Navigator screenOptions={{ headerShown: false }}>
-          <AppStack.Screen name="Main" component={getTabNavigator()} />
-          <AppStack.Screen name="BuildingPlan" component={BuildingPlan} />
-          <AppStack.Screen
-            name="EditBuildingPlan"
-            component={EditBuildingPlan}
-          />
-          <AppStack.Screen name="EditUser" component={EditUser} />
-          <AppStack.Screen name="EditAddress" component={EditAddress} />
-        </AppStack.Navigator>
-      ) : (
-        <AuthNavigator />
-      )}
+      <AppStack.Navigator screenOptions={{ headerShown: false }}>
+        <AppStack.Screen name="Main" component={RoleBasedNavigator} />
+        <AppStack.Screen name="Auth" component={AuthNavigator} />
+      </AppStack.Navigator>
     </NavigationContainer>
   );
 };
 
-export default AppNavigator;
+export {
+  AppNavigator,
+  AuthNavigator,
+  AdminTabs,
+  DutyTabs,
+  DispatcherTabs,
+  FirefighterTabs,
+};

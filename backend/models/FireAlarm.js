@@ -16,13 +16,9 @@ const fireAlarmSchema = mongoose.Schema(
       type: String,
       required: true,
     },
-    type: {
-      type: String,
-      required: true,
-    },
     status: {
       type: String,
-      enum: ['normal', 'alarm', 'fault', 'disabled'],
+      enum: ['normal', 'alert', 'disabled'],
       default: 'normal',
     },
     coordinates: {

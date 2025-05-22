@@ -66,7 +66,7 @@ const getAlarmsByFloor = async (req, res) => {
 // @access  Private/Admin/Duty
 const addAlarm = async (req, res) => {
   try {
-    const { buildingId, floorId, name, type, coordinates } = req.body;
+    const { buildingId, floorId, name, status, coordinates } = req.body;
     
     // Проверка существования здания
     const building = await Building.findById(buildingId);
@@ -104,7 +104,7 @@ const addAlarm = async (req, res) => {
           action: 'add',
           data: {
             name,
-            type,
+            status,
             coordinates,
           }
         },
@@ -124,8 +124,7 @@ const addAlarm = async (req, res) => {
       buildingId,
       floorId,
       name,
-      type,
-      status: 'normal',
+      status,
       coordinates,
       lastUpdated: Date.now(),
     });
@@ -149,7 +148,7 @@ const addAlarm = async (req, res) => {
 // @access  Private/Admin/Duty
 const updateAlarm = async (req, res) => {
   try {
-    const { name, type, coordinates } = req.body;
+    const { name, status, coordinates } = req.body;
     
     const alarm = await FireAlarm.findById(req.params.id);
     
@@ -171,7 +170,7 @@ const updateAlarm = async (req, res) => {
           action: 'update',
           data: {
             name: name || alarm.name,
-            type: type || alarm.type,
+            status: status || alarm.status,
             coordinates: coordinates || alarm.coordinates,
           }
         },
@@ -188,7 +187,7 @@ const updateAlarm = async (req, res) => {
     
     // Администратор обновляет без подтверждения
     if (name) alarm.name = name;
-    if (type) alarm.type = type;
+    if (status) alarm.status = status;
     if (coordinates) alarm.coordinates = coordinates;
     
     alarm.lastUpdated = Date.now();
@@ -245,7 +244,7 @@ const deleteAlarm = async (req, res) => {
     }
     
     // Администратор удаляет без подтверждения
-    await alarm.remove();
+    await alarm.deleteOne();
     
     res.json({ 
       success: true, 

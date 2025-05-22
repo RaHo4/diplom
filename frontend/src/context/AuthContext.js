@@ -38,20 +38,21 @@ export const AuthProvider = ({ children }) => {
       setError(null);
 
       const response = await api.post("/auth/login", { email, password });
-      // console.log(response);
       const { user, token } = response;
+      api.setAuthToken(token);
+
+      await AsyncStorage.setItem("user", JSON.stringify(user));
+      await AsyncStorage.setItem("token", token, () => {});
 
       setUser(user);
       setToken(token);
-      // api.setAuthToken(token);
-
-      await AsyncStorage.setItem("user", JSON.stringify(user));
-      await AsyncStorage.setItem("token", token);
+      setIsLoading(false);
+      return true;
     } catch (error) {
       setError(error.response?.data?.message || "Ошибка при входе");
       console.error("Login error", error.response?.data || error);
-    } finally {
       setIsLoading(false);
+      return false;
     }
   };
 
@@ -91,6 +92,26 @@ export const AuthProvider = ({ children }) => {
     }
   };
 
+  const logout = async () => {
+    try {
+      setIsLoading(true);
+      setError(null);
+
+      setUser(null);
+      setToken(null);
+      // api.setAuthToken(token);
+      await AsyncStorage.removeItem("user");
+      await AsyncStorage.removeItem("token");
+      await api.logout();
+      setIsLoading(false);
+      return true;
+    } catch (error) {
+      setError(error.response?.data?.message || "Ошибка при выходе");
+      console.error("Logout error", error.response?.data || error);
+      setIsLoading(false);
+      return false;
+    }
+  };
 
   return (
     <AuthContext.Provider
@@ -102,6 +123,7 @@ export const AuthProvider = ({ children }) => {
         error,
         login,
         register,
+        logout,
       }}
     >
       {children}

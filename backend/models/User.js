@@ -32,6 +32,9 @@ const userSchema = mongoose.Schema(
       type: String,
       required: true,
     },
+    assignedBuildings : {
+      type: String,
+    },
     phone: {
       type: String,
     },

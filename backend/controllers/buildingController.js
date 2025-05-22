@@ -53,6 +53,8 @@ const getBuildingById = async (req, res) => {
 const createBuilding = async (req, res) => {
   try {
     const { name, address, floors, dutyOfficers } = req.body;
+
+    console.log(req.body);
     
     const building = await Building.create({
       name,

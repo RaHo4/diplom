@@ -307,3 +307,299 @@
 {"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 13:26:36"}
 {"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 13:26:36"}
 {"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 13:26:36"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-13 14:20:57"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 14:20:57"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 14:20:57"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 14:20:57"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-13 14:43:10"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 14:43:10"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 14:43:10"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 14:43:10"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-13 19:34:04"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 19:34:04"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 19:34:04"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 19:34:04"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-13 22:54:59"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 22:54:59"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 22:54:59"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 22:54:59"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-13 22:56:12"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 22:56:12"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 22:56:12"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 22:56:12"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:07"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:07"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:07"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:07"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:13"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:13"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:13"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-13 22:57:13"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-15 11:36:40"}
+{"level":"error","message":"Error connecting to MongoDB: connect ECONNREFUSED ::1:27017, connect ECONNREFUSED 127.0.0.1:27017","service":"fire-alarm-api","timestamp":"2025-05-15 11:37:10"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-15 11:38:11"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-15 11:38:19"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-15 11:38:19"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-15 11:38:19"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-15 13:49:15"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-15 13:49:15"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-15 13:49:15"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-15 13:49:15"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-15 14:47:51"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-15 14:47:52"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-15 14:47:52"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-15 14:47:52"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 12:45:33"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 12:45:33"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 12:45:33"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 12:45:33"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 22:36:22"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 22:36:22"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 22:36:22"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 22:36:22"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 22:37:02"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 22:37:02"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 22:37:02"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 22:37:02"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 22:43:49"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 22:43:49"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 22:43:49"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 22:43:49"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:32"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:32"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:32"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:32"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:35"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:35"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:35"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 23:36:35"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:32"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:32"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:32"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:32"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:35"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:35"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:35"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 23:37:35"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-19 23:40:46"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-19 23:40:46"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-19 23:40:46"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-19 23:40:46"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:23"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:23"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:23"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:23"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:43"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:43"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:43"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 01:42:43"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 01:43:46"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 01:43:46"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 01:43:46"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 01:43:46"}
+{"level":"error","message":"Unhandled Rejection: Cannot destructure property 'buildingId' of 'req.body._parts' as it is undefined.","service":"fire-alarm-api","timestamp":"2025-05-20 01:45:11"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 01:49:31"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 01:49:31"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 01:49:31"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 01:49:31"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 01:51:53"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 01:51:53"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 01:51:53"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 01:51:53"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:28"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:28"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:28"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:28"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:58"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:58"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:58"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:00:58"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:15"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:15"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:15"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:15"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:57"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:57"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:57"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:01:57"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:02:42"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:02:42"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:02:42"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:02:42"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:26"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:26"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:26"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:26"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:54"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:54"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:54"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:03:54"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:04:07"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:04:07"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:04:07"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:04:07"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:05:00"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:05:00"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:05:00"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:05:00"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:06:32"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:06:32"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:06:32"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:06:32"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:07"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:07"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:07"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:07"}
+{"level":"error","message":"Unhandled Rejection: Floor validation failed: planImagePath: Path `planImagePath` is required.","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:12"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:29"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:29"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:29"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:07:29"}
+{"level":"error","message":"Unhandled Rejection: Cast to Number failed for value \"682bb9b858d33a1dfd475473\" (type string) at path \"floorNumber\" for model \"Floor\"","service":"fire-alarm-api","timestamp":"2025-05-20 02:08:43"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:09:36"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:09:36"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:09:37"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:09:37"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:19:05"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:19:05"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:19:05"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:19:05"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '1')","service":"fire-alarm-api","timestamp":"2025-05-20 02:21:07"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:21:43"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:21:43"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:21:43"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:21:43"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '1')","service":"fire-alarm-api","timestamp":"2025-05-20 02:22:57"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:25"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:25"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:25"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:25"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:27"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:48"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:48"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:48"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:48"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:23:58"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:24:13"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:24:13"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:24:13"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:24:13"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:24:16"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:25:33"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:25:33"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:25:33"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:25:33"}
+{"level":"error","message":"Unhandled Rejection: Cannot read properties of undefined (reading '0')","service":"fire-alarm-api","timestamp":"2025-05-20 02:25:37"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:27:58"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:27:58"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:27:58"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:27:58"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:53"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:53"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:54"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:54"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:56"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:56"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:56"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:29:56"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:30:10"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:30:10"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:30:10"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:30:10"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:12"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:12"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:12"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:12"}
+{"level":"error","message":"Unhandled Rejection: image is not defined","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:27"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:49"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:49"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:49"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:33:49"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:16"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:16"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:16"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:16"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:26"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:26"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:26"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 02:37:26"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 11:56:13"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 11:56:13"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 11:56:13"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 11:56:13"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 12:09:37"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 12:09:37"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 12:09:37"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 12:09:37"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 12:13:34"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 12:13:34"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 12:13:34"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 12:13:34"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 17:45:45"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 17:45:45"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 17:45:45"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 17:45:45"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:32:52"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:32:52"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:32:52"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:32:52"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:33:08"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:33:08"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:33:08"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:33:08"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:42"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:42"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:42"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:42"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:54"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:54"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:54"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:35:54"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:05"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:05"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:05"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:05"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:12"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:12"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:12"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:36:12"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:54:05"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:54:05"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:54:05"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:54:05"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 19:58:25"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 19:58:25"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 19:58:25"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 19:58:25"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 22:07:21"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 22:07:21"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 22:07:21"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 22:07:21"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-20 22:08:28"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-20 22:08:28"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-20 22:08:28"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-20 22:08:28"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-21 00:50:18"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-21 00:50:18"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-21 00:50:18"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-21 00:50:18"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-21 00:51:34"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-21 00:51:34"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-21 00:51:34"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-21 00:51:34"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-21 00:52:36"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-21 00:52:36"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-21 00:52:36"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-21 00:52:36"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-21 00:53:14"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-21 00:53:14"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-21 00:53:14"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-21 00:53:14"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:22"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:22"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:22"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:22"}
+{"level":"info","message":"Server running in development mode on port 5000","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:39"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:39"}
+{"level":"info","message":"WebSocket server initialized","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:39"}
+{"level":"info","message":"WebSocket server initialized successfully","service":"fire-alarm-api","timestamp":"2025-05-21 00:54:39"}
